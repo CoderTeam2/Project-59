@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(#E1BEE7, #90CAF9);
+    text-align: center;
+}
+
+#pic {
+    height: 200px;
+    width: 250px;
+}
+
+ul {
+    list-style: none;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    position: fixed;
+}
+
+.element {
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    font-size: 21px;
+    color: red;
+}
+
+.element:hover {
+    background-color: chartreuse;
+}
+
+#intro {
+    z-index: 9;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+button {
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+    background-color: aquamarine;
+}
